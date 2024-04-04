@@ -4,7 +4,7 @@ import React from "react";
 import Container from "./container";
 
 export default function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+  const navigation = ["Dashboard", "Inventory", "Schedule", "Resources"];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
@@ -24,7 +24,7 @@ export default function Footer() {
                   height="32"
                   className="w-8"
                 />
-                <span>Nextly</span>
+                <span>Dealer Acumen</span>
               </Link>
             </div>
 
@@ -114,7 +114,7 @@ export default function Footer() {
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a href="https://web3templates.com/" target="_blank" rel="noopener">
-            Web3Templates.
+            Jeff Capshaw.
           </a>{" "}
           Illustrations from{" "}
           <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
