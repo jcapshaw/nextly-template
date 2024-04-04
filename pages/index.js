@@ -30,12 +30,11 @@ const Home = () => {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        pretitle="SmartShield"
+        title="Learn about this premium product"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        Understanding SmartShield is a must. This is a premium protection
+        product and will help you to protect your customers vehicle.
       </SectionTitle>
       <Video />
       <SectionTitle
