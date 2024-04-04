@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+  const navigation = ["Dashboard", "Inventory", "Schedule", "Resources"];
 
   return (
     <div className="w-full">
@@ -15,7 +15,7 @@ const Navbar = () => {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <span className="flex items-center space-x-2 text-1xl font-medium text-blue-500 dark:text-gray-100">
+                  <span className="flex items-center space-x-2 text-1xl font-medium text-blue-600 dark:text-gray-100">
                     <span>
                       <Image
                         src="https://res.cloudinary.com/dqqfmzl3c/image/upload/v1712007673/acumenlogo_houqbv.svg"
